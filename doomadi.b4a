@@ -1,0 +1,323 @@
+﻿Build1=hassan,com.doomadi.artist
+File1=1.bal
+File10=apk.jpg
+File11=bat.png
+File12=byekan.ttf
+File13=data.db
+File14=dialog.png
+File15=doomad.bal
+File16=download.png
+File17=gram.jpg
+File18=headere.png
+File19=hedr.jpg
+File2=1.png
+File20=Home.png
+File21=inesta.jpg
+File22=inex.png
+File23=iran.png
+File24=jk.bal
+File25=layout2.bal
+File26=min.png
+File27=music.png
+File28=muzic.jpg
+File29=ndex.jpg
+File3=11.bal
+File30=ndex.png
+File31=ostan.bas
+File32=pale.png
+File33=pause-circle-fill.png
+File34=Picture 110.png
+File35=play-circle-fill.png
+File36=poster.png
+File37=scrol.bal
+File38=shahr.bal
+File39=sorosh.jpg
+File4=2.bal
+File40=tamas.bal
+File41=tas.jpg
+File42=tele.jpg
+File43=tele.png
+File44=tozih.bal
+File45=tozih.html
+File46=untitled-1.png
+File47=video.png
+File5=2.png
+File6=3.png
+File7=500.png
+File8=9d67459fe5bd0d6591128e1d4ca9f190 (1).png
+File9=ahang.bal
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=o
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=o
+FileGroup25=o
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=o
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=o
+FileGroup38=o
+FileGroup39=Default Group
+FileGroup4=o
+FileGroup40=o
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=o
+Group=Default Group
+IconFile=
+Library1=core
+Library2=animation
+Library3=httputils2
+Library4=javaobject
+Library5=json
+Library6=musicstramer
+Library7=phone
+Library8=sql
+Library9=shinebutton
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: http://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="22"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~AddPermission("android.permission.INTERNET")~\n~SetApplicationAttribute(android:theme,"@android:style/Theme.Holo.Light.NoActionBar.Fullscreen")~\n~~\n~'End of default text.~\n~~\n~
+Module1=Starter
+Module10=tamas
+Module11=kashmar
+Module12=mashhad
+Module13=golestan
+Module14=behrozvazefeh
+Module15=siyavashyosofi
+Module16=yasermahmoodi
+Module17=azgharbi
+Module18=tehran
+Module19=azsharghi
+Module2=ostan
+Module20=elam
+Module21=zanjan
+Module22=aliabdol
+Module23=ammar
+Module24=barshan
+Module25=tarkesh
+Module26=raeesi
+Module27=razavi
+Module28=moosazadeh
+Module29=torbat
+Module3=ostanha
+Module30=yaghoobi
+Module31=bejstan
+Module32=sohyli
+Module33=dori
+Module34=changi
+Module35=hormozgan
+Module36=rajabzadeh
+Module37=sharee
+Module38=fars
+Module39=gonabad
+Module4=sistan
+Module40=barati
+Module41=alinzhad
+Module42=mazandaran
+Module43=kermanshah
+Module44=azizvisi
+Module45=pazvari
+Module46=shomalikh
+Module47=esfarayen
+Module48=taghizadeh
+Module49=shirvan
+Module5=mazhabi
+Module50=eghbali
+Module51=torbatjam
+Module52=delnavaz
+Module53=doomadi
+Module54=alborz
+Module55=javan
+Module56=alavivahid
+Module57=seydi
+Module58=sedooghi
+Module59=a
+Module6=rezaee
+Module60=mamadjan
+Module61=abdini
+Module62=hasanzadeh
+Module63=choopan
+Module64=zhiyan
+Module65=barghi
+Module66=amjadiyan
+Module67=abdi
+Module68=khakshoor
+Module69=falah
+Module7=yusofi
+Module70=jafarzadeh
+Module71=dolat
+Module72=asheghi
+Module73=delafkar
+Module74=baghshani
+Module75=hydari
+Module76=bakerdar
+Module77=ghaemi
+Module78=mirzadeh
+Module79=karaj
+Module8=jafari
+Module80=asadyan
+Module81=yousof
+Module82=sabzevar
+Module83=tozih
+Module84=ImageDownloader
+Module85=mortzajafarzadeh
+Module86=charmahal
+Module87=didar
+Module88=zilabi
+Module89=lorestan
+Module9=neyshboor
+Module90=yazd
+Module91=jonoobi
+Module92=ehsantavakoli
+Module93=amirhosinazari
+Module94=jalalfarajiyan
+Module95=sajadrazmjoo
+Module96=mohamadazimi
+Module97=ardabil
+NumberOfFiles=47
+NumberOfLibraries=9
+NumberOfModules=97
+Version=7.8
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: دومادی 
+	#VersionCode: 1
+	#VersionName: 1.0.0
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: False
+
+#End Region
+
+
+Sub Process_Globals
+	
+End Sub
+
+Sub Globals
+	
+	
+	Dim f As PhoneWakeState
+	Private ImageView1 As ImageView
+	Private Button1 As Button
+	Private Button2 As Button
+	Private Button3 As Button
+	Private Button4 As Button
+	Private Button5 As Button
+	Private Button6 As Button
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	
+	Activity.LoadLayout("2")
+	f.KeepAlive(True)
+	Dim jo As JavaObject
+	jo.InitializeContext
+	
+	
+	
+End Sub
+
+
+	
+	
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+
+
+
+
+Sub Button6_Click
+	StartActivity(tozih)
+	Activity.Finish
+End Sub
+
+Sub Button5_Click
+	StartActivity(tamas)
+	Activity.Finish
+End Sub
+
+Sub Button4_Click
+	
+	
+		StartActivity(doomadi)
+		Activity.Finish
+
+	
+End Sub
+
+
+Sub Button3_Click
+	
+	StartActivity(mazhabi)
+	Activity.Finish
+End Sub
+
+
+Sub Button2_Click
+	Msgbox("این قسمت در نسخه بعدی فعال میگردد با تشکر","توجه!")
+
+End Sub
+
+Sub Button1_Click
+	StartActivity(ostan)
+	Activity.Finish
+End Sub
+Sub Activity_KeyPress (KeyCode As Int) As Boolean 'Return True to consume the event
+	
+	If KeyCode = KeyCodes.KEYCODE_BACK Then
+ 
+		If (Msgbox2("ایا قصد خروج از برنامه را دارین؟","خروج از برنامه !","بله","نه","",Null) = DialogResponse.POSITIVE) Then
+             
+			ExitApplication
+ 
+			Return True
+		Else
+               
+			Return True
+                 
+		End If
+           
+	End If
+	
+	
+End Sub

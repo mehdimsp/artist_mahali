@@ -1,0 +1,238 @@
+<<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>دومادی</title>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+      <script type="text/javascript">
+            document.onkeypress = function(event) {
+                event = (event || window.event);
+                if (event.keyCode === 123) {
+                    //alert('No F-12');
+                    return false;
+                }
+            };
+            document.onmousedown = function(event) {
+                event = (event || window.event);
+                if (event.keyCode === 123) {
+                    //alert('No F-keys');
+                    return false;
+                }
+            };
+            document.onkeydown = function(event) {
+                event = (event || window.event);
+                if (event.keyCode === 123) {
+                    //alert('No F-keys');
+                    return false;
+                }
+            };
+            function contentprotector() {
+                return false; //initialize the function return false
+            }
+            function contentprotectors() {
+                return false; //initialize the function return false
+            }
+                    document.oncontextmenu = contentprotector; //calling the false function in contextmenu
+                //document.onmouseup = contentprotector; //calling the false function in mouseup event
+            var isCtrl = false;
+            var isAlt = false;
+            var isCmd = false;
+            var isShift = false;
+            var isPrint = false;
+            window.onkeyup = function(e)
+            {
+                if (e.which === 17)
+                    isCtrl = false; // make the condition when ctrl key is pressed no action has performed.
+    
+                if ((e.which === 93) || (e.which === 91) || (e.which === 224))
+                    isCmd = false; // make the condition when ctrl key is pressed no action has performed.
+            }
+            ;
+            window.onkeydown = function(e)
+            {
+                if (e.which === 17)
+                        isCtrl = true; //if onkeydown event is triggered then ctrl with possible copying keys are disabled.
+                   
+                    
+                            if ((e.which === 85) && (isCtrl === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 80) && (isCtrl === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 65)  && (isCtrl === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 88)  && (isCtrl === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 67)  && (isCtrl === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 86)  && (isCtrl === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 83)  && (isCtrl === true)) {
+                            return false;
+                        }
+            
+
+                if (e.which === 16) {
+                    isShift = true;
+                }
+                        if (isCtrl === true && isShift === true && e.which === 73) { // for ctlr+shift+i key combination in Windows
+                        return false;
+                    }
+    
+                if ((e.which === 93) || (e.which === 91) || (e.which === 224))
+                    isCmd = true; //if onkeydown event is triggered then ctrl with possible copying ke
+                //
+                //ys are disabled.
+
+                            if ((e.which === 85) && (isCmd === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 80) && (isCmd === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 65) && (isCmd === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 88) && (isCmd === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 67) && (isCmd === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 86) && (isCmd === true)) {
+                            return false;
+                        }
+                                    if ((e.which === 83) && (isCmd === true)) {
+                            return false;
+                        }
+            
+       
+                
+                if (e.which === 18) {
+                    isAlt = true;
+                }
+                        if (isCmd === true && isAlt === true && e.which === 73) { // for cmd+alt+i key combination in mac
+                        return false;
+                    }
+            
+   
+            };
+            isCtrl = false;
+            isCmd = false;
+                    document.ondragstart = contentprotector; // Dragging for Image is also Disabled(By Making Condition as false)
+    </script>
+
+<style type="text/css">
+body{direction:rtl;background:blue;margin:0 auto}
+section{background:#EDEDED;max-width:800px;min-width:60%;margin:0 auto;height:100f%}
+.main {padding:10px;margin:2px 25px 5px 25px;border:4px solid #f26972;height:calc(100%px);text-align:center}
+img{max-width:100%;margin:5px auto;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;-ms-transition:all 0.3s ease-out;-o-transition:all 0.3s ease-out;transition:all 0.3s ease-out}
+a img:hover{opacity:0.8}
+a{text-decoration:none}
+.dddmatn
+{
+font:normal 40pt BYekan;
+color:#FFFFFF;
+text-align: center;
+text-shadow:
+-1px 1px 0 #ddd,
+-2px 2px 0 #c8c8c8,
+-3px 3px 0 #ccc,
+-4px 4px 0 #b8b8b8,
+-4px 4px 0 #bbb,
+0px 1px 1px rgba(0,0,0,.4),
+0px 2px 2px rgba(0,0,0,.3),
+-1px 3px 3px rgba(0,0,0,.2),
+-1px 5px 5px rgba(0,0,0,.1),
+-2px 8px 8px rgba(0,0,0,.1),
+-2px 13px 13px rgba(0,0,0,.1)
+;
+}
+.ddd{text-shadow:
+-1px 1px 0 #ddd,
+-2px 2px 0 #c8c8c8,
+-3px 3px 0 #ccc,
+-4px 4px 0 #b8b8b8,
+-4px 4px 0 #bbb,
+0px 1px 1px rgba(0,0,0,.4),
+0px 2px 2px rgba(0,0,0,.3),
+-1px 3px 3px rgba(0,0,0,.2),
+-1px 5px 5px rgba(0,0,0,.1),
+-2px 8px 8px rgba(0,0,0,.1),
+-2px 13px 13px rgba(0,0,0,.1)
+;}
+@font-face {
+	font-family: "BYekan";
+	src: url(http://irlavan.ir/clash/theme_files/fonts/BYekan.eot);
+	src: url(http://irlavan.ir/clash/theme_files/fonts/BYekan.eot?#iefix) format("embedded-opentype"), url(http://irlavan.ir/clash/theme_files/fonts/BYekan.woff) format("woff"), url(http://irlavan.ir/clash/theme_files/fonts/BYekan.ttf) format("truetype"), url(http://irlavan.ir/clash/theme_files/fonts/BYekan.svg#BYekan) format("svg");
+	font-weight: normal;
+	font-style: normal
+}
+p{font-family:BYekan;font-size:17px;color:#000;direction:rtl !important}
+span{color:blue;font-family:BYekan;font-size:17px}
+</style>
+
+</head>
+<body>
+<section>
+<div style="color:#34495E">-</div>
+<div class="main">
+<p class="ddd" style="font-size: 24pt;">
+
+<label class="label">دومادی اپلیکیشنی شاد و متفاوت</label>
+<p>
+<label class="label">
+با سلام به شکرانه خداوند متعال و باتلاش تیم بالاخره  اولین نسخه اپلیکیشن دومادی آماده و به مرحله استفاده
+گردید
+دومادی چیست؟ برنامه ایی که همه خوانندگان و موسیقی دانان محلی کل کشور عزیزمان ایران میتوانند در آن آثار 
+خود را ثبت و هم میهنان دیگر ما از آن استفاده نمایند این برنامه برای هنرمندانی ساخته شده که با وجود 
+استعداد بالا کمتر کسی از آنها اطلاعی دارن و یا آثارشون رو دیدن
+توضیحی در مورد قسمت های برنامه:
+قسمت آهنگها به ترتیب استان ها که شما میتوانید با ورود به این قسمت تصویر زیر  
+<p>
+ 
+<img src="muzic.jpg"/>
+<p>
+
+ و وارد شهر مربوطه خود شوید 
+و خوانندگان و اهل موسیقی شهر خود را بشناسید وآثار و اهنگ ها رو گوش و دانلود ویا اشتراک گذاری کنید و یا وارد صفحه هات اجتماعی این عزیزان بروید و در صورت لزوم با آنها تماس بگیرید
+قسمت کلیپ ها که میتوانید کلیپ های زیبا مربوط به موسیقی را از این قسمت مشاهد نمایید و در صورتی 
+که خودتان کلیپی از هنر خود نیز دارید برای ما ارسال تا در برنامه گنجانده شود این قسمت در نسخه بعد فعال میگردد 
+تصویر زیر
+<p>
+ <img src="video.png"/>
+ <p>
+ 
+ 
+قسمت مذهبی فرهنگی که در این قسمت جدیدترین نوحه های مخصوص ماه محرم صفر گنجانده میشود 
+تصویر زیر
+<p>
+
+  <img src="500.png"/>
+<p>
+قسمت مدیریت جشن ها که در این قسمت صاحبان مشاغل مربوطه که مشخص گردیده میتوانند شغل خود را به 
+رایگان ثبت و کاربران نیز برای مدیریت بهتر و صرفه جویی در هزینه ها و وقت از آن استفاده نمایند بدون شک یکی از بهترین آیتم های این برنامه این گزینه میباشدکه شما میتوانید شغل تان را به شهر خودتان ویا استان مربوطه و یا و کل کشور معرفی نمایید و کسب درآمد نمایید 
+تصویرهای زیر مربوط به قسمت ثبت شغل یا همان مدیریت جشن های شما میباشد
+<p>
+ <img src="inex.png"/>
+<p>
+ <img src="ndex.png"/>
+<p>
+قسمت ارتباط با ما چنانچه شما در یک زمینه موسیقی استعداد دارین میتوانید با ارسال آثار خود
+ما اثار شما را در برنامه بصورت رایگان گنجانده شود
+<p> 
+<label class="label">منتظر خبرهای خوب در نسخه های بعدی باشید موفق باشید</label>
+
+ 
+</label>
+
+</p>
+  </html>                  
